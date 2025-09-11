@@ -15,7 +15,6 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 > **Note:**  
 > - `Node.js` is required for most LSP servers and formatters.  
 > - `Python` is required for `black`.  
-> - `shfmt` works out-of-the-box with Mason.  
 
 ---
 
@@ -30,4 +29,5 @@ After restoring the config, open Neovim and run:
 ```vim
 :Lazy sync
 :Mason
+
 
