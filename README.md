@@ -10,7 +10,7 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 | pyright | Node.js | `npm install -g pyright` |
 | typescript-language-server | Node.js | `npm install -g typescript typescript-language-server` |
 | black | Python 3.8+ | `pip install black` |
-| shfmt | Standalone binary | Installed by Mason; optional manual: `go install mvdan.cc/sh/v3/cmd/shfmt@latest` |
+ 
 
 > **Note:**  
 > - `Node.js` is required for most LSP servers and formatters.  
@@ -30,3 +30,4 @@ After restoring the config, open Neovim and run:
 ```vim
 :Lazy sync
 :Mason
+
