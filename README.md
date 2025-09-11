@@ -21,7 +21,11 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 ### Recommended Workflow
 
 1. Install required runtimes (`node`, `npm`, `python3`).  
-2. Restore your Neovim config and plugin backups.  
+2. Restore your Neovim config and plugin backups.
+   ```
+chmod +x ./nv-sync.sh
+./nv-sync.sh
+   ```
 3. Run plugin sync:  
 
 After restoring the config, open Neovim and run:
@@ -29,5 +33,6 @@ After restoring the config, open Neovim and run:
 ```vim
 :Lazy sync
 :Mason
+
 
 
