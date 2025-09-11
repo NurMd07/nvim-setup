@@ -25,5 +25,8 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 2. Restore your Neovim config and plugin backups.  
 3. Run plugin sync:  
 
-```bash
-nvim --headless "+Lazy! sync" +qa
+After restoring the config, open Neovim and run:
+
+```vim
+:Lazy sync
+:Mason
