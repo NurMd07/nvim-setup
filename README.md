@@ -9,10 +9,11 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 | prettier | Node.js | `npm install -g prettier` |
 | pyright | Node.js | `npm install -g pyright` |
 | typescript-language-server | Node.js | `npm install -g typescript typescript-language-server` |
-| black | Python 3.8+ | `sudo apt install pipx &&
+| black | Python 3.8+ | ```
+sudo apt install pipx &&
 && pipx ensurepath
 && pipx install black
-` |
+``` |
  
 
 > **Note:**  
@@ -36,6 +37,7 @@ After restoring the config, open Neovim and run:
 ```vim
 :Lazy sync
 :Mason
+
 
 
 
