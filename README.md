@@ -13,7 +13,8 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 
  
 
-> **Note:**  
+> **Note:**
+> - `Git` obviously no need to explain.
 > - `Node.js` is required for most LSP servers and formatters.  
 > - `Python` is required for `black`.  
 > - `NeoVim` v0.11 + is required.  
@@ -24,6 +25,7 @@ To make all plugins, LSP servers, and formatters work correctly, the following r
 1. Install required runtimes (`node`, `npm`, `python3`).  
 2. Restore your Neovim config and plugin backups.
    ```
+   git clone https://github.com/NurMd07/nvim-setup.git
    cd nvim-setup
    chmod +x ./nv-sync.sh && ./nv-sync.sh
    ```
@@ -34,6 +36,7 @@ After restoring the config, open Neovim and run:
 ```vim
 :Lazy sync
 :Mason
+
 
 
 
